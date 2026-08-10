@@ -33,7 +33,7 @@ Fill in the sections below yourself, then:
 
 # [Microsoft AI Tour 2027](https://aitour.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 ILL234: Coding with agents in GitHub Copilot CLI
 
 ### Session description
 
