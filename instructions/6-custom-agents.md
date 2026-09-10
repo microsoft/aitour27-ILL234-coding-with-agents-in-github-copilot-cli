@@ -47,7 +47,7 @@ A custom agent has already been created for you for accessibility. Let's review 
 You can start a custom agent in Copilot CLI by using the `/agent` command. Let's perform an accessibility pass on our website.
 
 1. Return to your codespace. If you closed it, navigate to your repository on GitHub.com, select **Code** > **Codespaces**, then reopen your existing codespace.
-2. Return to your open Copilot CLI session. If the terminal is closed or you exited Copilot CLI, open a terminal by selecting <kbd>Ctrl</kbd>+<kbd>\`</kbd>, then start it from the repository root by running `copilot --yolo --enable-all-github-mcp-tools`. Trust the project folder if prompted, then run `/models` and select **Auto**.
+2. Return to your open Copilot CLI session. If the terminal is closed or you exited Copilot CLI, open a terminal by selecting <kbd>Ctrl</kbd>+<kbd>\`</kbd>, then start it from the repository root by running `copilot --yolo --enable-all-github-mcp-tools`. Trust the project folder if prompted, then run `/model` and select **Auto**.
 3. Bring up the list of agents by typing `/agent` in the prompt window in Copilot CLI and selecting <kbd>Enter</kbd>.
 4. Select the **Accessibility agent** from the list of available agents.
 5. Use the following prompt to ask the accessibility agent to perform a review and generate fixes for the accessibility backlog item:
