@@ -37,7 +37,7 @@ Fill in the sections below yourself, then:
 
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Build features in the Caldova Careers sample application with GitHub Copilot CLI while learning how to give an agent the right context and tools. You will configure custom instructions, plan and implement a feature, verify it in a browser with the Playwright MCP server, and explore reusable skills, custom agents, and session commands.
 
 ### 🚀 Getting started
 
@@ -45,33 +45,36 @@ Add your session description here. Keep it concise — 2-3 sentences about what 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Open the [attendee instructions](instructions/README.md).
+2. Review the prerequisites, then follow Exercise 0 to create your own copy of the Caldova Careers sample application.
+3. Complete the exercises in order with your presenter.
 
 #### On your own
 
 If you're learning at your own pace:
 
-1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+1. Open the [attendee instructions](instructions/README.md).
+2. Confirm that you meet the prerequisites, then follow Exercise 0 to create your own copy of the Caldova Careers sample application.
+3. Complete all nine exercises in order.
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Configure GitHub Copilot CLI and repository instructions to give an agent project-specific context.
+- Plan, implement, and browser-check a feature using GitHub Copilot CLI and the Playwright MCP server.
+- Apply agent skills, custom agents, and session commands to review and deliver changes.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- GitHub Copilot CLI
+- GitHub Copilot custom instructions
+- GitHub Copilot agent skills
+- GitHub Copilot custom agents
+- Model Context Protocol (MCP)
+- Playwright MCP server
+- GitHub Codespaces
+- Astro
 
 ### 📚 Continue your learning
 
@@ -83,36 +86,14 @@ Pick your next step based on your learning style:
 | **[AI Tour 2027 Resource Center](https://aka.ms/aitour27-resource-center)** | Additional session repos and materials from AI Tour 2027 |
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-AITour27)** | Connect with other learners and experts in our Discord community |
 
-### 🌟 Microsoft Learn MCP Server
-
-<!-- Remove this section if the Microsoft Learn MCP Server is not relevant to the session. -->
-
-The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the topics in this session.
-
-**GitHub Copilot CLI** — Install with:
-
-```shell
-copilot plugin install microsoftdocs/mcp
-```
-
-**VS Code** — One-click install:  
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
-
-For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp).
-
 ### 👥 Content owners
-
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/geektrainer">
+        <img src="https://github.com/geektrainer.png" width="100px;" alt="Christopher Harrison"/><br />
+        <sub><b>Christopher Harrison</b></sub></a><br />
+            <a href="https://github.com/geektrainer" title="talk">📢</a>
     </td>
 </tr></table>
 
