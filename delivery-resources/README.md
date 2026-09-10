@@ -6,18 +6,16 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | [ILL234-AITourFY27.pptx](ILL234-AITourFY27.pptx) | Approved repository copy |
-| Session recording | Not available | Add a public URL if a recording becomes available |
+| Delivery deck | [ILL234-AITourFY27.pptx](ILL234-AITourFY27.pptx) | Session slides |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../instructions/README.md) | Guided and self-paced exercise sequence |
 
 ## Delivery checklist
 
 - Review the [session README](../README.md) and [attendee instructions](../instructions/README.md).
-- Confirm that the public delivery deck URL has been added.
-- Confirm that the [`github-samples/caldova-careers`](https://github.com/github-samples/caldova-careers) template repository is available to attendees.
+- Review the [delivery deck](ILL234-AITourFY27.pptx).
 - Verify that creating a repository from the template seeds the required workshop backlog.
-- Create a fresh codespace or dev container and complete the setup flow.
+- Create a fresh codespace and complete the [setup flow](../instructions/0-prerequisites.md).
 - Rehearse the filtering and accessibility exercise transitions.
 - Verify the Playwright MCP browser-check flow.
 
@@ -25,8 +23,8 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 - Use a GitHub account with an active Copilot Student, Pro, Pro+, Business, or Enterprise plan.
 - If the account is managed by an organization, confirm that Copilot CLI is enabled.
-- Confirm that the sample repository can be used as a template and includes its dev-container configuration.
-- Confirm that the setup workflow creates issues labeled `workshop:filtering`, `workshop:pagination`, and the accessibility backlog item.
+- Use the [`github-samples/caldova-careers`](https://github.com/github-samples/caldova-careers) template for learner repositories.
+- Confirm that the setup workflow creates issues labeled `workshop:filtering`, `workshop:pagination`, and `workshop:accessibility`.
 - Create a fresh learner repository and codespace before presenting. Pull the setup workflow's follow-up commit before starting Exercise 1.
 - Keep the attendee instructions open so you can follow the exact prompts and transitions.
 
@@ -45,7 +43,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 1. Create a new repository from [`github-samples/caldova-careers`](https://github.com/github-samples/caldova-careers).
 2. Wait for the setup workflow to create the workshop backlog, then create a codespace. Run `git pull` after the codespace starts.
-3. Confirm Node.js 22 or later, install Copilot CLI with `npm install -g @github/copilot`, and authenticate by running `copilot`.
+3. Follow [Exercise 0](../instructions/0-prerequisites.md#prepare-the-application) to select Node.js 24 and install the application dependencies and Chromium. Install Copilot CLI with `npm install -g @github/copilot`, and authenticate by running `copilot`.
 4. Start workshop sessions from the learner application's repository root with `copilot --yolo --enable-all-github-mcp-tools`. Use `--yolo` only in the isolated workshop environment.
 5. Configure the Playwright MCP server with `npx @playwright/mcp@latest --headless`.
 6. Start the sample app in a separate terminal with `npm run dev`, then verify it is available at `http://localhost:4321` before asking Copilot to browser-check filtering.
@@ -58,7 +56,6 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 - Exercise 5 expects `.github/skills/make-contribution/SKILL.md`.
 - Exercise 6 expects `.github/agents/accessibility.md`.
 - Exercise 7 treats pagination delegation as optional.
-- Do not begin delivery until the sample repository and seeded backlog have been verified.
 
 ## Support
 
