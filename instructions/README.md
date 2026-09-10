@@ -51,4 +51,4 @@ Before attending this workshop, please ensure you have:
 
 ## Source attribution
 
-These workshop instructions and screenshots are adapted from the [Caldova Copilot CLI workshop](https://github.com/github-samples/copilot-workshops/tree/caldova-ai-tour/docs/cli-caldova) at commit `7ae288663bba337c26ba254ea356274b402c7f43`. The imported material is provided under the [MIT License](LICENSE).
+These workshop instructions and screenshots are adapted from the [Caldova Copilot CLI workshop](https://github.com/github-samples/copilot-workshops/tree/caldova-ai-tour/docs/cli-caldova) and provided under the [MIT License](LICENSE).

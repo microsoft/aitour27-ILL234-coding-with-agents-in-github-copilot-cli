@@ -72,7 +72,7 @@ The `--headless` flag tells Playwright to run the browser without a visible wind
 7. You should see `playwright` listed alongside the built-in `github` server.
 
 > [!NOTE]
-> The Caldova Careers project already uses Playwright for its end-to-end tests, so the browser Playwright needs is typically already installed. If Copilot later reports that a browser is missing, have it run `npx playwright install chromium` and try again.
+> You installed Chromium for the application's end-to-end tests in [Exercise 0](0-prerequisites.md#prepare-the-application). If the MCP server requests a different browser or version, ask Copilot to install the browser requested by the server and retry.
 
 ## Start the website
 
@@ -111,7 +111,7 @@ Report what you observe at each step, and call out anything that does not behave
 Copilot will launch a browser through the Playwright MCP server, walk through each step, and report back what it found. Read its summary against the acceptance criteria in the issue — if something looks off, ask follow-up questions or send it back to fix the code before you open a pull request.
 
 > [!NOTE]
-> The app needs to be running at `http://localhost:4321` for this test. If you stopped the dev server, start it again before sending the prompt. The first time Copilot uses the Playwright MCP server it may need to download a browser — if it reports a missing browser, have it run `npx playwright install chromium` and try again.
+> The app needs to be running at `http://localhost:4321` for this test. If you stopped the dev server, start it again before sending the prompt. If the MCP server reports a missing browser, ask Copilot to install the browser requested by the server and retry.
 
 ## Summary and next steps
 

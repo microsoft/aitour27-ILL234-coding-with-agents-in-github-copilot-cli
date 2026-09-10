@@ -21,6 +21,7 @@ To create a copy of the repository for the code you'll create, you'll make an in
 > **Your backlog is ready**
 >
 > When you create your repository from the template, a short setup workflow runs automatically and files a backlog of GitHub issues for you — including the feature work you'll pick up in later exercises. You'll work from these issues throughout the workshop; there's nothing to file yourself. If the **Issues** tab looks empty immediately after creation, give the workflow a minute to finish and refresh.
+
 ## Creating a codespace
 
 Next up, you'll use a codespace to complete the lab exercises.
@@ -36,20 +37,38 @@ Next up, you'll use a codespace to complete the lab exercises.
 
     ![Create a new codespace](../img/ex0-create-codespace.png)
 
-The creation of the codespace will take several minutes, although it's still far quicker than having to manually install all the services! That said, you can use this time to explore other features of GitHub Copilot, which we'll turn your attention to next.
+The creation of the codespace will take several minutes. Once it opens, prepare the application before continuing to the Copilot CLI exercises.
 
-> [!CAUTION]
-> You'll return to the codespace in a future exercise. For the time being, leave it open in a tab in your browser.
+## Prepare the application
 
-> [!NOTE]
-> This workshop is built to run inside a codespace or local [dev container][dev-containers]. Both ensure the environment has all the necessary prerequisites installed for a smooth experience. If you'd prefer to run it locally, open the cloned repository in VS Code and select **Reopen in Container** when prompted — VS Code will build the same dev container the codespace uses.
+1. Open a terminal in your codespace using **Terminal** > **New Terminal**. Run the following commands from your learner repository's root.
+2. Select Node.js 24 using the Node Version Manager included in the default Codespaces environment:
+
+   ```bash
+   nvm install 24
+   nvm use 24
+   ```
+
+3. Install the application dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Install Chromium and its system dependencies for the browser tests:
+
+   ```bash
+   npx playwright install --with-deps chromium
+   ```
+
+Keep the codespace open for the remaining exercises. When you start the application with `npm run dev` in Exercise 4, its `predev` script sets up the local database automatically.
 
 > [!TIP]
 > The setup workflow removes itself with a small commit after it files your backlog. If you created your codespace right away, run `git pull` in the codespace terminal once it's ready so you're on the latest commit before you start working.
 
 ## Summary
 
-Congratulations, you have created a copy of the lab repository! You also began the creation process of your codespace, which you'll use when you begin working with Copilot CLI.
+Congratulations, you have created a copy of the lab repository and prepared its dependencies in a codespace! You'll use this environment throughout the Copilot CLI exercises.
 
 ## Next step
 
@@ -65,4 +84,3 @@ Let's install Copilot CLI and authenticate it with your GitHub account. Continue
 [codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
 [next-lesson]: 1-install-copilot-cli.md
 [codespaces]: https://github.com/features/codespaces
-[dev-containers]: https://code.visualstudio.com/docs/devcontainers/containers

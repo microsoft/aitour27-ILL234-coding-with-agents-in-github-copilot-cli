@@ -30,7 +30,7 @@ You can install Copilot CLI through [npm][install-npm], [WinGet][install-winget]
    node --version
    ```
 
-   You should see version 22 or higher (e.g., `v22.x.x`).
+   You should see version 24 (for example, `v24.x.x`), which you selected during [application setup](0-prerequisites.md#prepare-the-application). If needed, run `nvm use 24` in this terminal.
 
 2. Install Copilot CLI globally in the codespace using npm:
 
