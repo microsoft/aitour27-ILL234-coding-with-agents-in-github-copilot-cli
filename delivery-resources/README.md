@@ -6,7 +6,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | Pending | A public URL is required before publication |
+| Delivery deck | [ILL234-AITourFY27.pptx](ILL234-AITourFY27.pptx) | Approved repository copy |
 | Session recording | Not available | Add a public URL if a recording becomes available |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../instructions/README.md) | Guided and self-paced exercise sequence |
