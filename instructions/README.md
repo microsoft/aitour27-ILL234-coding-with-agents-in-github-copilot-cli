@@ -29,7 +29,7 @@ Before attending this workshop, please ensure you have:
 - [ ] Git installed and configured
 
 > [!TIP]
-> No paid plan? Verified students can get GitHub Copilot for free through [GitHub Education][callout-student-plan-education]. The **Copilot Student** plan includes the agent, MCP, code review, and Copilot CLI features this workshop uses — so you can complete every harness with it.
+> No paid plan? Verified students can get GitHub Copilot for free through [GitHub Education][callout-student-plan-education]. The **Copilot Student** plan includes the agent, MCP, code review, and Copilot CLI features this workshop uses — so you can complete every exercise with it.
 
 > [!NOTE]
 > If you are using Copilot Business or Copilot Enterprise, ensure your admin has enabled Copilot CLI for use.

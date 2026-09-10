@@ -102,7 +102,7 @@ To see the impact of custom instructions, start by generating code with the curr
 Running Copilot CLI from the **repository root** ensures it picks up `.github/copilot-instructions.md` automatically. `--enable-all-github-mcp-tools` turns on the read/write GitHub MCP tools so Copilot can read your backlog and open pull requests later in the workshop.
 
 1. Return to your codespace. If you closed it, navigate to your repository on GitHub.com, select **Code** > **Codespaces**, then reopen your existing codespace.
-2. Return to your open Copilot CLI session. If the terminal is closed or you exited Copilot CLI, open a terminal by selecting <kbd>Ctrl</kbd>+<kbd>\`</kbd>, then start it from the repository root by running `copilot --yolo --enable-all-github-mcp-tools`. Trust the project folder if prompted, then run `/models` and select **Auto**.
+2. Return to your open Copilot CLI session. If the terminal is closed or you exited Copilot CLI, open a terminal by selecting <kbd>Ctrl</kbd>+<kbd>\`</kbd>, then start it from the repository root by running `copilot --yolo --enable-all-github-mcp-tools`. Trust the project folder if prompted, then run `/model` and select **Auto**.
 3. At the Copilot CLI prompt, ask it to generate the departments helper that the filtering UI will use:
 
    ```plaintext
