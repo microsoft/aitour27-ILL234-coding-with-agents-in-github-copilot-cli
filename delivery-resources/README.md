@@ -6,14 +6,12 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | [ILL234-AITourFY27.pptx](ILL234-AITourFY27.pptx) | Session slides |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../instructions/README.md) | Guided and self-paced exercise sequence |
 
 ## Delivery checklist
 
 - Review the [session README](../README.md) and [attendee instructions](../instructions/README.md).
-- Review the [delivery deck](ILL234-AITourFY27.pptx).
 - Verify that creating a repository from the template seeds the required workshop backlog.
 - Create a fresh codespace and complete the [setup flow](../instructions/0-prerequisites.md).
 - Rehearse the filtering and accessibility exercise transitions.
