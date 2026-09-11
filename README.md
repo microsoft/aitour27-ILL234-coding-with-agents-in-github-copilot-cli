@@ -72,7 +72,7 @@ Pick your next step based on your learning style:
 
 ### Deliver this session
 
-Presenters and re-delivery partners can find the deck, presenter notes, and delivery guidance in [`delivery-resources/`](delivery-resources/README.md).
+Presenters and re-delivery partners can find presenter notes and delivery guidance in [`delivery-resources/`](delivery-resources/README.md).
 
 ### ⚖️ Trademarks
 
