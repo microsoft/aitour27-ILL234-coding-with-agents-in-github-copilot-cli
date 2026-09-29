@@ -44,11 +44,11 @@ The **conversation mode** controls how much autonomy the agent has. Press <kbd>S
 - **Plan**: The agent creates a plan first and is blocked from editing project files.
 - **Autopilot**: The agent works autonomously — writing code, running tests, and iterating until the task is complete.
 
-Start in Plan mode, review the plan, then use Autopilot to implement it.
+You'll start in Plan mode, review the plan, then use Autopilot to implement it.
 
 ## Start from the issue
 
-Before starting the filtering work, return to your Codespace and make sure the repository and terminal are ready.
+The filtering work begins on a new branch from updated `main`.
 
 1. Return to your Codespace. If it is stopped, restart it before continuing.
 2. Confirm the location-label PR is merged.

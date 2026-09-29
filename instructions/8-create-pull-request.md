@@ -39,10 +39,11 @@ With all of your code created, let's review it together, create the PR, and allo
 6. Create a new PR by using the command `/pr create`. Open its URL and review the changed files and checks.
 7. Activate Agent Merge by using `/pr agentmerge`.
 8. Copilot will watch the continuous integration process on the PR. Once everything succeeds and repository requirements are satisfied, it will perform the merge.
-9. Ensure you see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
+9. If Agent Merge is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
+10. Confirm the PR is merged on GitHub. When Agent Merge completes it, you'll also see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
 
 > [!IMPORTANT]
-> Agent Merge does not bypass required approvals, branch protection, merge queues, repository settings, or missing permissions. If it is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
+> Agent Merge does not bypass required approvals, branch protection, merge queues, repository settings, or missing permissions.
 
 ## Summary and next steps
 

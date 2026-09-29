@@ -9,7 +9,7 @@ In this exercise, you will:
 
 ## Set up the lab repository
 
-You'll work against your own copy of the Caldova Careers project. Create it now from the [template repository][caldova-template]. The new repository contains every file the lab needs.
+You'll work against your own copy of the Caldova Careers project, created from the [template repository][caldova-template]. A fresh copy includes repository instructions, application code, tests, a `quality-checks` skill, and the backlog you'll use.
 
 1. In a new browser window, navigate to the [Caldova Careers template][caldova-template].
 2. Create your own copy of the repository by selecting **Use this template**, then **Create a new repository**.
@@ -18,10 +18,8 @@ You'll work against your own copy of the Caldova Careers project. Create it now 
 
 > [!NOTE]
 > When you create your repository from the template, a backlog of GitHub issues is created for you automatically. You'll work from these issues throughout the workshop — there's nothing to file yourself.
->
-> If the **Issues** tab looks empty immediately after creation, give the setup workflow a minute to finish and refresh.
 
-Use a fresh copy of the workshop template. It includes repository instructions, application code, tests, a `quality-checks` skill, and the backlog you'll use. If you use an older copy, check with your facilitator that it has the files you'll need.
+5. If the **Issues** tab looks empty immediately after creation, give the setup workflow a minute to finish and refresh.
 
 ## Create a Codespace
 
@@ -42,9 +40,10 @@ Next up, you'll use a Codespace to complete the workshop.
 
 7. When Codespaces reports that port `4321` is available, select **Open in Browser** and confirm the Caldova Careers site loads.
 8. Return to the terminal and stop the development server with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+9. Run `git pull --ff-only` in the terminal so you're on the latest commit before you start working.
 
 > [!TIP]
-> The setup workflow removes itself with a small commit after it files your backlog. If you created your Codespace right away, run `git pull --ff-only` in the terminal once it's ready so you're on the latest commit before you start working.
+> The setup workflow removes itself with a small commit after it files your backlog. Pulling the latest commit picks up that change if you created your Codespace right away.
 
 ## Summary and next steps
 

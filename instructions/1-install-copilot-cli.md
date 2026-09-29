@@ -107,7 +107,11 @@ For this workshop, `--enable-all-github-mcp-tools` turns on the read/write GitHu
 
 3. Ask another quick question about the project to confirm the conversation is working, then exit with `/exit`.
 
-Copilot saves conversations automatically. If you exit during the filtering workflow, run `copilot --resume --yolo --enable-all-github-mcp-tools` and select the filtering conversation. Make sure its feature branch is still checked out.
+Copilot saves conversations automatically. If you exit during the filtering workflow:
+
+1. Confirm the filtering feature branch is still checked out.
+2. Run `copilot --resume --yolo --enable-all-github-mcp-tools`.
+3. Select the filtering conversation.
 
 ## Summary and next steps
 

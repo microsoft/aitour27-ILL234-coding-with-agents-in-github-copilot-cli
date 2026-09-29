@@ -58,7 +58,7 @@ OK, we'd like a better report that tells us what ran, whether it succeeded, and 
    Upon completion, report each command that ran and whether it passed, failed, or was blocked. Include test counts, durations, errors, warnings, and other metrics only when the tool reports them. Identify the next action for any failure or blocker, and never describe a skipped or incomplete check as passed.
    ```
 
-3. Save the file.
+Codespaces automatically saves your changes.
 
 ## Run the updated skill
 

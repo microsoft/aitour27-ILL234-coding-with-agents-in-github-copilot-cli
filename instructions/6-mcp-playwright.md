@@ -51,7 +51,7 @@ Let's add the Playwright MCP server to allow Copilot to interact with the websit
 7. Press <kbd>Esc</kbd> to exit the MCP dialog.
 
 > [!NOTE]
-> These browser flags are for the isolated Codespace used in this workshop. If the MCP server reports a missing browser, ask Copilot to install the browser requested by the server and retry.
+> These browser flags are for the isolated Codespace used in this workshop.
 
 ## Ask Copilot to explore the feature via Playwright
 
@@ -66,8 +66,9 @@ Previously you manually confirmed the functionality behaves as expected. Now let
 > [!NOTE]
 > You don't actually need to tell Copilot to use the MCP server as it will typically figure it out on its own. But since you know what it should be using, it's never a bad idea to help point it in the right direction! It'll help ensure more consistent results, and save a few tokens along the way.
 
-2. Watch as Copilot lists the various steps its performing in the browser to confirm the functionality works.
-3. Read the report and ensure everything behaves as expected.
+2. If the MCP server reports a missing browser, ask Copilot to install the browser requested by the server and retry.
+3. Watch as Copilot lists the various steps its performing in the browser to confirm the functionality works.
+4. Read the report and ensure everything behaves as expected.
 
 Copilot will start the server, use Playwright to interact with the website, stop the server, and give you a report.
 
