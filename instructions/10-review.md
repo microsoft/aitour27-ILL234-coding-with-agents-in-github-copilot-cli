@@ -48,8 +48,6 @@ You've covered the core workflow. A few more CLI features worth a look:
 
 The best way to improve with any tool is to keep using it! Use it for production code, for hobby code, for the little app you've had in mind for years but never got around to building. Share your learnings with your team, and learn from theirs. And, as always, explore the documentation.
 
-To compare other environments, explore the [VS Code workshop][vscode], the [GitHub Copilot app workshop][app], or the [Copilot cloud agent workshop][cloud].
-
 ## Resources
 
 - [About GitHub Copilot CLI][about-cli]
@@ -58,9 +56,6 @@ To compare other environments, explore the [VS Code workshop][vscode], the [GitH
 - [Manage pull requests with Copilot CLI][manage-prs]
 
 [previous-lesson]: 9-cli-power-tools.md
-[vscode]: https://github-samples.github.io/copilot-workshops/real-world-development/vscode/
-[app]: https://github-samples.github.io/copilot-workshops/real-world-development/app/
-[cloud]: https://github-samples.github.io/copilot-workshops/real-world-development/cloud/
 [about-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
 [customize-cli]: https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot

@@ -16,7 +16,7 @@ Each job in Caldova Careers has a location, and it already appears on the role d
 
 ## Anatomy of a conversation
 
-A **conversation** is where you work with Copilot CLI on a task. Unlike the Copilot app, a normal CLI conversation uses the repository and Git branch currently checked out in your terminal rather than creating a dedicated worktree. Saved conversations let you return to the same discussion later, while the files and branch remain ordinary Git state on disk.
+A **conversation** is where you work with Copilot CLI on a task. A normal CLI conversation uses the repository and Git branch currently checked out in your terminal. Saved conversations let you return to the same discussion later, while the files and branch remain ordinary Git state on disk.
 
 Inside a conversation you'll see three things: your prompts and the agent's responses, the agent's tool activity as it explores and edits files, and the changes you can inspect with `/diff`.
 

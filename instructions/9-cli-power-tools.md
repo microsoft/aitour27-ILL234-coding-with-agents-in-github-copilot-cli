@@ -67,7 +67,7 @@ The core workshop is complete. Copilot CLI also provides commands for larger tas
 - `/worktree` can create an isolated Git worktree for a separate task.
 - `/delegate` can send a task to Copilot cloud agent, which works asynchronously and may open a pull request.
 
-These commands are optional because they can create additional worktrees or remote work. Start a fresh, well-scoped task before trying them, and review the result through your normal workflow. If you want to dig deeper into asynchronous agent work, continue with the [cloud agent workshop][cloud-workshop].
+These commands are optional because they can create additional worktrees or remote work. Start a fresh, well-scoped task before trying them, and review the result through your normal workflow.
 
 ## Summary and next steps
 
@@ -91,4 +91,3 @@ There are more slash commands available and more to explore with Copilot CLI! Le
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
 [context-management]: https://docs.github.com/copilot/concepts/agents/copilot-cli/context-management
 [about-cloud-agent]: https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent
-[cloud-workshop]: https://github-samples.github.io/copilot-workshops/real-world-development/cloud/
