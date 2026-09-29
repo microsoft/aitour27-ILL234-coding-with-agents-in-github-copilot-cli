@@ -33,7 +33,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 2. **Exercise 2:** Add existing job locations to role cards, review the diff and browser behavior, then create and manually merge the first PR.
 3. **Exercise 3:** Add the filtering issue to the conversation from the Issues tab, use Plan and Autopilot modes, then review the code and browser behavior in Interactive mode.
 4. **Exercise 4:** Add documentation guidance to the repository instructions and apply it to the filtering code.
-5. **Exercise 5:** Customize the existing `quality-checks` skill, reload it, and compare the check reports.
+5. **Exercise 5:** Customize the existing `quality-checks` skill, reload it, and compare the lint, type-check, and unit-test reports. The skill skips the end-to-end suite to keep the workshop moving.
 6. **Exercise 6:** Configure the Playwright MCP server and browser-check filtering without making changes.
 7. **Exercise 7:** Create a QA custom agent and use it to assess requirements, coverage, and verification evidence.
 8. **Exercise 8:** Review the full filtering change, return to the default agent, create the second PR, and enable Agent Merge.

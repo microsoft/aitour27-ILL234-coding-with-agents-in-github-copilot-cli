@@ -22,7 +22,7 @@ From planning filtering through opening its PR, you used the same conversation a
 
 ## Different kinds of verification
 
-You checked the code in several ways: automated tests, your own browser inspection, and Copilot's browser exploration through MCP. The `quality-checks` skill ran the project checks and reported them in your new format. QA brought those results together with a review of requirements and test coverage before the PR.
+You checked the code in several ways: automated tests, your own browser inspection, and Copilot's browser exploration through MCP. The `quality-checks` skill ran linting, type checking, and unit tests and reported them in your new format, leaving the end-to-end suite to CI. QA brought those results together with a review of requirements and test coverage before the PR.
 
 Tests added should close genuine gaps; a QA run that needs no new tests can be correct. Review code and evidence before authorizing merge, and refresh affected evidence after changes.
 

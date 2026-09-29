@@ -12,7 +12,10 @@ In this exercise, you will:
 
 ## Scenario
 
-Caldova Careers has a collection of unit and end to end tests which always need to be run before any pull request (PR) is made. As you might expect, ensuring these are run correctly and consistently is important. The team has already created an agent skill to run these tests, but they want to enhance the output for better readability.
+Caldova Careers has unit tests, type checks, and linters which need to be run before any pull request (PR) is made. As you might expect, ensuring these are run correctly and consistently is important. The team has already created an agent skill to run these checks, but they want to enhance the output for better readability.
+
+> [!NOTE]
+> To keep the workshop moving, the `quality-checks` skill does not run the slower end-to-end tests. Those remain part of CI. You'll explore browser behavior with Playwright MCP in the next exercise.
 
 ## Instructions, scripts, and resources
 
@@ -29,7 +32,7 @@ Let's explore the skill the Caldova Careers team created for running tests and l
 
 1. Return to your Codespace. In the Codespaces editor, open `.github/skills/quality-checks/SKILL.md`.
 2. Read the `name` and `description` at the top. The description helps Copilot understand when to call the skill.
-3. Read the instructions and note how they guide Copilot through the testing and linting process.
+3. Read the instructions and note how they guide Copilot through linting, type checking, and unit tests without running the end-to-end suite.
 4. Notice that the skill does not yet contain a **Results output formatting** section.
 
 ## Run the skill before making a change
