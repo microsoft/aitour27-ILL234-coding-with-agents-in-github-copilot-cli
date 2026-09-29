@@ -53,15 +53,17 @@ While the files already built are a good start, there's still a gap. Let's modif
    - All new TypeScript should contain TSDocs comments for documentation purposes.
    ```
 
-Codespaces automatically saves your changes.
+The file will be automatically saved!
 
 ## Use the updated guidance
 
-1. Return to the same filtering conversation so Copilot can apply the updated guidance without losing the feature context.
+Copilot CLI loads repository instructions when a conversation starts. You'll apply the updated guidance to the filtering code in the same conversation, keeping the feature context as you explore the impact of your changes.
+
+1. Return to the same filtering conversation.
 2. Ask Copilot to apply the updated guidance:
 
    ```plaintext
-   We just updated .github/copilot-instructions.md. Read the updated instructions and code guidance, then update the code you generated to match that guidance.
+   We just updated our instructions and code guidance. Can you please update the code you generated to match that guidance?
    ```
 
 3. Enter `/diff` and read through the changed TypeScript files. Note the newly generated TSDoc comments and confirm they explain the code accurately.

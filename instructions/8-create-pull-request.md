@@ -29,18 +29,11 @@ With all of your code created, let's review it together, create the PR, and allo
 1. Return to your Codespace.
 2. Open the agent dialog by entering `/agent`.
 3. Select **Default** from the list of options and select <kbd>Enter</kbd>.
-4. Enter `/diff` and review the full change alongside the QA findings. Resolve failures or blockers and rerun affected checks before continuing.
-5. Ask the default agent to commit the reviewed changes:
-
-   ```plaintext
-   Commit the reviewed filtering changes, instruction updates, quality-checks skill update, QA profile, and tests with an appropriate commit message.
-   ```
-
-6. Create a new PR by using the command `/pr create`. Open its URL and review the changed files and checks.
-7. Activate Agent Merge by using `/pr agentmerge`.
-8. Copilot will watch the continuous integration process on the PR. Once everything succeeds and repository requirements are satisfied, it will perform the merge.
-9. If Agent Merge is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
-10. Confirm the PR is merged on GitHub. When Agent Merge completes it, you'll also see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
+4. Create a new PR by using the command `/pr create`.
+5. Activate Agent Merge by using `/pr agentmerge`.
+6. Copilot will watch the continuous integration process on the PR. Once everything succeeds, it will perform the merge.
+7. If Agent Merge is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
+8. Confirm the PR is merged on GitHub. When Agent Merge completes it, you'll also see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
 
 > [!IMPORTANT]
 > Agent Merge does not bypass required approvals, branch protection, merge queues, repository settings, or missing permissions.

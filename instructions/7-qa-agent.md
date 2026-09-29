@@ -35,7 +35,7 @@ Before opening the feature PR, you'll ask Copilot to create a reusable QA profil
 
 ## Inspect the profile
 
-Reviewing the new agent's profile helps confirm Copilot captured the intended QA workflow and boundaries. This prevents an incomplete or overly broad agent from changing the feature when you only want it verified.
+Before using the new agent, you'll review its profile to confirm Copilot captured the intended QA workflow and boundaries. This prevents an incomplete or overly broad agent from changing the feature when you only want it verified.
 
 1. Enter `/diff` and open `.github/agents/qa.agent.md`.
 2. Read the frontmatter. The `description` is required; `name` is optional, but including it gives the agent a clear display name.
@@ -45,9 +45,9 @@ Reviewing the new agent's profile helps confirm Copilot captured the intended QA
 
 ## Run QA against the issue
 
-QA will use the issue and planning decisions already in context in the filtering conversation.
+Copilot CLI loads project agents when a conversation starts. You'll select QA in the same filtering conversation so it can use the issue and planning decisions already in context.
 
-1. In the same filtering conversation, enable the agent by using the following prompt:
+1. Enable the agent by using the following prompt:
 
    ```plaintext
    /agent QA

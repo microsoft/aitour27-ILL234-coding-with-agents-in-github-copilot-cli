@@ -48,7 +48,7 @@ You'll start in Plan mode, review the plan, then use Autopilot to implement it.
 
 ## Start from the issue
 
-The filtering work begins on a new branch from updated `main`.
+Before starting the filtering work, you'll return to your Codespace and make sure the repository and terminal are ready.
 
 1. Return to your Codespace. If it is stopped, restart it before continuing.
 2. Confirm the location-label PR is merged.

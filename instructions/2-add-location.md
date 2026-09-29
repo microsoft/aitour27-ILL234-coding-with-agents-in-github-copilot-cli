@@ -12,7 +12,7 @@ In this exercise, you will:
 
 ## Scenario
 
-Each job in Caldova Careers has a location, and it already appears on the role details page. The role cards on the home page, though, don't show it yet. As a warm-up, you'll have the agent display the existing location on each card — a tiny, self-contained change that's perfect for your first session.
+Each job in Caldova Careers has a location, and it already appears on the role details page. The role cards on the home page, though, only show the title, department, employment type, remote status, posting date, and summary. As a warm-up, you'll have the agent display the existing location on each card — a tiny, self-contained change that's perfect for your first session.
 
 ## Anatomy of a conversation
 

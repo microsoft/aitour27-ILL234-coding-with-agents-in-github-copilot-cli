@@ -9,7 +9,7 @@ In this exercise, you will:
 
 ## Set up the lab repository
 
-You'll work against your own copy of the Caldova Careers project, created from the [template repository][caldova-template]. A fresh copy includes repository instructions, application code, tests, a `quality-checks` skill, and the backlog you'll use.
+You'll work against your own copy of the Caldova Careers project. You'll create it from the [template repository][caldova-template]. The new repository contains every file the lab needs.
 
 1. In a new browser window, navigate to the [Caldova Careers template][caldova-template].
 2. Create your own copy of the repository by selecting **Use this template**, then **Create a new repository**.
@@ -20,6 +20,8 @@ You'll work against your own copy of the Caldova Careers project, created from t
 > When you create your repository from the template, a backlog of GitHub issues is created for you automatically. You'll work from these issues throughout the workshop — there's nothing to file yourself.
 
 5. If the **Issues** tab looks empty immediately after creation, give the setup workflow a minute to finish and refresh.
+
+The workshop template includes repository instructions, application code, tests, a `quality-checks` skill, and the backlog you'll use.
 
 ## Create a Codespace
 
