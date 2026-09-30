@@ -6,7 +6,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | [English](https://aka.ms/aitour27/ILL234/slides/en) | Required URL |
+| Delivery deck | coming soon | Required URL |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../instructions/README.md) | Guided and self-paced exercise sequence |
 
