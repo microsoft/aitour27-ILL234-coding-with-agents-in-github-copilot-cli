@@ -7,6 +7,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 | Item | Link | Notes |
 |---|---|---|
 | Delivery deck | Avail 10.12.26 | Required URL |
+| Full session recording | [Video Recording](https://aka.ms/aitour27/ILL234/youtube) | ILL234 Video |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../instructions/README.md) | Guided and self-paced exercise sequence |
 
