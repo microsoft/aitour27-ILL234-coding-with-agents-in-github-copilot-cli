@@ -10,7 +10,7 @@
 
 ### Session description
 
-Build features in the Caldova Careers sample application with GitHub Copilot CLI while learning how to give an agent the right context and tools. You will configure custom instructions, plan and implement a feature, verify it in a browser with the Playwright MCP server, and explore reusable skills, custom agents, and session commands.
+Build features in the Caldova Careers sample application with GitHub Copilot CLI while learning how to give an agent the right context and tools. You will ship a small change, plan and implement filtering, apply custom instructions, customize a quality-checks skill, verify the feature with Playwright MCP and a QA agent, and use Agent Merge to deliver it.
 
 ### 🚀 Getting started
 
@@ -28,7 +28,7 @@ If you're learning at your own pace:
 
 1. Open the [attendee instructions](instructions/README.md).
 2. Confirm that you meet the prerequisites, then follow Exercise 0 to create your own copy of the Caldova Careers sample application.
-3. Complete all nine exercises in order.
+3. Complete all eleven exercises in order.
 
 ### 🎯 Learning outcomes
 
@@ -36,7 +36,7 @@ By the end of this session, you will be able to:
 
 - Configure GitHub Copilot CLI and repository instructions to give an agent project-specific context.
 - Plan, implement, and browser-check a feature using GitHub Copilot CLI and the Playwright MCP server.
-- Apply agent skills, custom agents, and session commands to review and deliver changes.
+- Apply agent skills, a QA custom agent, and Agent Merge to review and deliver changes.
 
 ### 💻 Technologies used
 
@@ -58,7 +58,6 @@ Pick your next step based on your learning style:
 | **[Session Recording](https://aka.ms/aitour27/ILL234/youtube)** | A recording of session ILL234 by the session creator |
 | **[Microsoft Learn](https://learn.microsoft.com)** | Official documentation and guided learning paths on these topics |
 | **[AI Tour 2027 Resource Center](https://aka.ms/aitour27-resource-center)** | Additional session repos and materials from AI Tour 2027 |
-| **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-AITour27)** | Connect with other learners and experts in our Discord community |
 
 ### 👥 Content owners
 
