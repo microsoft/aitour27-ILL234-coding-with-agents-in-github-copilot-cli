@@ -20,7 +20,7 @@ If you're following along during a live session:
 
 1. Open the [attendee instructions](instructions/README.md).
 2. Review the prerequisites, then follow Exercise 0 to create your own copy of the Caldova Careers sample application.
-3. Complete the exercises in order with your presenter.
+3. Complete the exercises as guided by your presenter.
 
 #### On your own
 

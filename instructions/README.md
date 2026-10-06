@@ -38,12 +38,14 @@ To keep the workshop focused, you'll create two PRs: location labels, then filte
 
 Before attending this workshop, please ensure you have:
 
-- [ ] A GitHub account with an active **Copilot Student, Pro, Pro+, Business, or Enterprise** plan
+- [ ] Your own GitHub account with GitHub Copilot access; **Copilot Free is sufficient** for the core workshop
 - [ ] Permission to create a repository and Codespace
 - [ ] Basic familiarity with terminal or command-line operations
 
 > [!TIP]
-> No paid plan? Verified students can get GitHub Copilot for free through [GitHub Education][student-plan]. The **Copilot Student** plan includes the agent, MCP, code review, and Copilot CLI features this workshop uses.
+> No paid plan is required. You can enable [Copilot Free][copilot-plans] and use Auto for the workshop. GitHub Free personal accounts include 120 Codespaces core-hours per month, equivalent to 60 hours on a two-core machine, plus a storage allowance. See [GitHub Codespaces billing][codespaces-billing] for details.
+
+Everything runs in your browser through Codespaces. There's no local setup required; you'll install Copilot CLI inside your Codespace.
 
 > [!NOTE]
 > If you are using Copilot Business or Copilot Enterprise, ensure your administrator has enabled Copilot CLI for use.
@@ -53,7 +55,8 @@ Before attending this workshop, please ensure you have:
 **[Start with the prerequisites →][ex0]**
 
 [about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
-[student-plan]: https://github.com/education/students
+[copilot-plans]: https://docs.github.com/copilot/get-started/plans
+[codespaces-billing]: https://docs.github.com/billing/concepts/product-billing/github-codespaces
 [ex0]: 0-prerequisites.md
 [ex1]: 1-install-copilot-cli.md
 [ex2]: 2-add-location.md
