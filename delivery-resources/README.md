@@ -8,7 +8,7 @@ The workshop uses the [Caldova Careers sample application][caldova-template] to 
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | Available October 12, 2026; link pending | Workshop introduction, core concepts, and setup slide |
+| Delivery deck | [English slides](https://aka.ms/aitour27/ILL234/slides/en) | Workshop introduction, core concepts, and setup slide |
 | Full session recording | [Video Recording](https://aka.ms/aitour27/ILL234/youtube) | ILL234 Video |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop instructions | [Instructions](../instructions/README.md) | Exercises attendees follow at their own pace |
