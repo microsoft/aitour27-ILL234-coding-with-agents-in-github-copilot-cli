@@ -13,7 +13,7 @@ You'll work against your own copy of the Caldova Careers project. You'll create 
 
 1. In a new browser window, navigate to the [Caldova Careers template][caldova-template].
 2. Create your own copy of the repository by selecting **Use this template**, then **Create a new repository**.
-3. If you are completing the workshop as part of an event being led by GitHub or Microsoft, follow the instructions provided by the mentors. Otherwise, create the new repository in an organization where you have access to GitHub Copilot.
+3. Set the **Owner** field to your GitHub handle unless otherwise instructed by the mentors for your workshop. Set the name of the repository to `caldova-careers`.
 4. Make a note of the repository path you created (`organization-or-user-name/repository-name`), as you will refer to it later in the workshop.
 
 > [!NOTE]
