@@ -8,7 +8,7 @@ The workshop uses the [Caldova Careers sample application][caldova-template] to 
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | [English slides](https://aka.ms/ft27/ill234/slides/en) | Workshop introduction, core concepts, and setup slide |
+| Delivery deck | [English](https://aka.ms/ft27/ill234/slides/en) \| [Spanish](https://aka.ms/ft27/ill234/slides/es) | Session slides |
 | Full session recording | [Video Recording](https://aka.ms/ft27/ill234/youtube) | ILL234 Video |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop instructions | [Instructions](../instructions/README.md) | Exercises attendees follow at their own pace |

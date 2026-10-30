@@ -56,6 +56,7 @@ Pick your next step based on your learning style:
 | Resource | What you'll get |
 |----------|-----------------|
 | **[Session Recording](https://aka.ms/ft27/ill234/youtube)** | A recording of session ILL234 by the session creator |
+| **[English](https://aka.ms/ft27/ill234/slides/en)** \| **[Spanish](https://aka.ms/ft27/ill234/slides/es)** | Session slides for ILL234 |
 | **[Microsoft Learn](https://learn.microsoft.com)** | Official documentation and guided learning paths on these topics |
 | **[Frontier Tour 2027 Resource Center](https://aka.ms/FrontierTour27)** | Additional session repos and materials from Frontier Tour 2027 |
 
