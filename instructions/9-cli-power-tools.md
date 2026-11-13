@@ -38,7 +38,7 @@ When working on larger or more complex tasks, you may bump into the maximum cont
 
 ## Choose your model
 
-Different models have different strengths, and different developers have different preferences. Copilot CLI allows you to list and select the model you want to use.
+Different models have different strengths, and different developers have different preferences. Copilot CLI allows you to list and select the model you want to use. [Copilot Fusion][copilot-fusion] can choose models for your task.
 
 1. Enter:
 
@@ -89,5 +89,6 @@ There are more slash commands available and more to explore with Copilot CLI! Le
 [previous-lesson]: 8-create-pull-request.md
 [next-lesson]: 10-review.md
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
-[context-management]: https://docs.github.com/copilot/concepts/agents/copilot-cli/context-management
-[about-cloud-agent]: https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent
+[context-management]: https://docs.github.com/copilot/concepts/prompting-and-context/context-management
+[copilot-fusion]: https://docs.github.com/copilot/concepts/models/copilot-fusion
+[about-cloud-agent]: https://docs.github.com/copilot/concepts/copilot-surfaces/copilot-on-github

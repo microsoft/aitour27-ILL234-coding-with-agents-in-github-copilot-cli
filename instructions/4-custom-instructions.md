@@ -86,7 +86,7 @@ Next, you'll [customize and run the reusable quality-checks skill][next-lesson] 
 - [Awesome Copilot — a collection of instruction files and other resources][awesome-copilot]
 
 [instruction-files]: https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions
-[instructions-best-practices]: https://docs.github.com/copilot/concepts/prompting/response-customization#writing-effective-custom-instructions
+[instructions-best-practices]: https://docs.github.com/copilot/concepts/prompting-and-context/custom-instructions#writing-effective-custom-instructions
 [awesome-copilot]: https://awesome-copilot.github.com/
 [custom-instructions-support]: https://docs.github.com/copilot/reference/custom-instructions-support
 [previous-lesson]: 3-agent-modes.md

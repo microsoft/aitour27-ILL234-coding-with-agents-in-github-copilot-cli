@@ -27,13 +27,37 @@ Up to this point you've selected **Merge pull request** yourself. Agent Merge ca
 With all of your code created, let's review it together, create the PR, and allow Agent Merge to manage the rest of the process.
 
 1. Return to your Codespace.
-2. Open the agent dialog by entering `/agent`.
+2. Open the agent dialog by entering the following command:
+
+   ```plaintext
+   /agent
+   ```
+
 3. Select **Default** from the list of options and select <kbd>Enter</kbd>.
-4. Create a new PR by using the command `/pr create`.
-5. Activate Agent Merge by using `/pr agentmerge`.
-6. Copilot will watch the continuous integration process on the PR. Once everything succeeds, it will perform the merge.
-7. If Agent Merge is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
-8. Confirm the PR is merged on GitHub. When Agent Merge completes it, you'll also see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
+4. Use the following command to review the changes:
+
+   ```plaintext
+   /diff
+   ```
+
+   Inspect every changed file against the filtering issue and your plan, then press <kbd>Esc</kbd> to exit the diff view.
+
+5. Create a new PR by using the following command:
+
+   ```plaintext
+   /pr create
+   ```
+
+6. Open the PR URL and review the changed files and checks.
+7. After completing your review, authorize Agent Merge by using the following command:
+
+   ```plaintext
+   /pr agentmerge
+   ```
+
+8. Copilot will watch the continuous integration process on the PR. Once everything succeeds, it will perform the merge.
+9. If Agent Merge is blocked, read the reported reason and complete the reviewed merge manually when your repository permits it.
+10. Confirm the PR is merged on GitHub. When Agent Merge completes it, you'll also see a message from Copilot saying something similar to "PR #14 was squash-merged successfully."
 
 > [!IMPORTANT]
 > Agent Merge does not bypass required approvals, branch protection, merge queues, repository settings, or missing permissions.

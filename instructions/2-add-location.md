@@ -119,5 +119,5 @@ Next, you'll [start from the filtering issue and use Plan and Autopilot modes][n
 
 [previous-lesson]: 1-install-copilot-cli.md
 [next-lesson]: 3-agent-modes.md
-[about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
+[about-copilot-cli]: https://docs.github.com/copilot/concepts/copilot-surfaces/copilot-cli
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference

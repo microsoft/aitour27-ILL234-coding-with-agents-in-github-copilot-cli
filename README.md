@@ -4,7 +4,7 @@
 <img src="img/banner-frontier-tour-27.png" alt="Microsoft Frontier Tour 2027" width="100%"/>
 </p>
 
-# [Microsoft Frontier Tour 2027](https://aitour.microsoft.com)
+# [Microsoft Frontier Tour 2027](https://frontiertour.microsoft.com)
 
 ## 🔥 ILL234: Coding with agents in GitHub Copilot CLI
 

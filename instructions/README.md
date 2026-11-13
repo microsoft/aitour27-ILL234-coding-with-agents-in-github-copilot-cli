@@ -43,7 +43,7 @@ Before attending this workshop, please ensure you have:
 - [ ] Basic familiarity with terminal or command-line operations
 
 > [!TIP]
-> No paid plan is required. You can enable [Copilot Free][copilot-plans] and use Auto for the workshop. GitHub Free personal accounts include 120 Codespaces core-hours per month, equivalent to 60 hours on a two-core machine, plus a storage allowance. See [GitHub Codespaces billing][codespaces-billing] for details.
+> No paid plan is required. You can enable [Copilot Free][copilot-plans] and use Copilot Fusion with Fusion Standard for the workshop. GitHub Free personal accounts include 120 Codespaces core-hours per month, equivalent to 60 hours on a two-core machine, plus a storage allowance. See [GitHub Codespaces billing][codespaces-billing] for details.
 
 Everything runs in your browser through Codespaces. There's no local setup required; you'll install Copilot CLI inside your Codespace.
 
@@ -54,7 +54,7 @@ Everything runs in your browser through Codespaces. There's no local setup requi
 
 **[Start with the prerequisites →][ex0]**
 
-[about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
+[about-copilot-cli]: https://docs.github.com/copilot/concepts/copilot-surfaces/copilot-cli
 [copilot-plans]: https://docs.github.com/copilot/get-started/plans
 [codespaces-billing]: https://docs.github.com/billing/concepts/product-billing/github-codespaces
 [ex0]: 0-prerequisites.md

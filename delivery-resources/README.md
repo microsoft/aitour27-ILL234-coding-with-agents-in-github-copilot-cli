@@ -24,7 +24,7 @@ Don't try to walk the entire room through every prompt at the same time. People 
 
 Attendees bring their own GitHub accounts and GitHub Copilot access. They don't need a paid subscription for this workshop.
 
-- **GitHub Copilot:** Copilot Free is sufficient for the core workshop, which is designed around roughly 10 main queries. Follow-up questions, retries, and optional exploration add usage. Have attendees enable [Copilot Free][copilot-plans] if they don't already have Copilot, and use **Auto** as instructed in [Exercise 1](../instructions/1-install-copilot-cli.md).
+- **GitHub Copilot:** Copilot Free is sufficient for the core workshop, which is designed around roughly 10 main queries. Follow-up questions, retries, and optional exploration add usage. Have attendees enable [Copilot Free][copilot-plans] if they don't already have Copilot, and select **Copilot Fusion** with **Fusion Standard** as instructed in [Exercise 1](../instructions/1-install-copilot-cli.md).
 - **GitHub Codespaces:** All GitHub personal accounts include a monthly free allowance. GitHub Free includes 120 core-hours, equivalent to **60 hours on a two-core Codespace**, plus 15 GB-month of storage. A standard personal account with allowance remaining is sufficient for the workshop. See [GitHub Codespaces billing][codespaces-billing] for the current limits.
 - **Local setup:** None! The workshop runs in Codespaces, in the browser. Attendees install Copilot CLI inside their Codespace, not on their own computer.
 
@@ -84,7 +84,7 @@ Use the following as a guide for those moments. You don't need to deliver every 
 | [Exercise 6: Playwright MCP](../instructions/6-mcp-playwright.md) | MCP gives the agent access to tools. This time, Copilot can interact with the site in a browser rather than relying only on reading code or running unit tests. |
 | [Exercise 7: QA agent](../instructions/7-qa-agent.md) | The custom agent gives Copilot a specialist role. QA brings together the requirements, test coverage, and verification evidence; it doesn't replace the developer's judgment. |
 | [Exercise 8: Agent Merge](../instructions/8-create-pull-request.md) | Review comes before merge authorization. Agent Merge helps with the remaining PR work, but it doesn't bypass repository permissions or required approvals. |
-| [Exercises 9-10: More tools and wrap-up](../instructions/9-cli-power-tools.md) | There's more to explore, but optional delegation isn't required to complete the workshop. Available models and features depend on the attendee's plan; Copilot Free users can stay on Auto. |
+| [Exercise 9: More tools](../instructions/9-cli-power-tools.md) and [Exercise 10: Wrap-up](../instructions/10-review.md) | There's more to explore, but optional delegation isn't required to complete the workshop. Available models and features depend on the attendee's plan; Copilot Free users can stay on Fusion Standard. |
 
 One transition is worth calling out explicitly: after merging the location-label PR, attendees return to `main`, pull the changes, and create `role-filters-cli`. From Exercise 3 through Exercise 8, they should stay in the same filtering conversation and branch. Those exercises build on one another.
 

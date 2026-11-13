@@ -56,7 +56,7 @@ The best way to improve with any tool is to keep using it! Use it for production
 - [Manage pull requests with Copilot CLI][manage-prs]
 
 [previous-lesson]: 9-cli-power-tools.md
-[about-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
+[about-cli]: https://docs.github.com/copilot/concepts/copilot-surfaces/copilot-cli
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
 [customize-cli]: https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot
 [manage-prs]: https://docs.github.com/copilot/how-tos/copilot-cli/use-copilot-cli/manage-pull-requests
