@@ -68,7 +68,7 @@ On first launch, Copilot CLI prompts you to authenticate with your GitHub accoun
 
 Commands at the normal shell prompt run directly in your Codespace. After Copilot CLI starts, natural language goes to the agent and slash commands control the conversation.
 
-1. Enter `/model`, use the arrow keys to select **Auto**, press <kbd>Enter</kbd>, then press <kbd>Enter</kbd> again to confirm.
+1. Enter `/model`, use the arrow keys to select **Copilot Fusion** with **Fusion Standard**, then press <kbd>Enter</kbd> to confirm.
 2. Enter `/help` to see the commands available in your installed version, then press <kbd>Esc</kbd> to close the help screen.
 3. Ask Copilot a simple question to verify everything is working:
 
@@ -133,6 +133,6 @@ Next, you'll [start your first focused change][next-lesson] and use Copilot CLI 
 [previous-lesson]: 0-prerequisites.md
 [next-lesson]: 2-add-location.md
 [install-cli]: https://docs.github.com/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli
-[about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
+[about-copilot-cli]: https://docs.github.com/copilot/concepts/copilot-surfaces/copilot-cli
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
-[allow-all-warning]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli#allowing-and-denying-tool-use
+[allow-all-warning]: https://docs.github.com/copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools

@@ -147,7 +147,7 @@ Next, let's dig a little deeper into how code is generated, ensuring it follows 
 - [Autopilot in GitHub Copilot CLI][autopilot]
 - [Copilot CLI command reference][cli-reference]
 
-[autopilot]: https://docs.github.com/copilot/concepts/agents/copilot-cli/autopilot
+[autopilot]: https://docs.github.com/copilot/how-tos/copilot-cli/use-copilot-cli/use-autopilot-mode
 [cli-reference]: https://docs.github.com/copilot/reference/copilot-cli-reference/cli-command-reference
 [previous-lesson]: 2-add-location.md
 [next-lesson]: 4-custom-instructions.md

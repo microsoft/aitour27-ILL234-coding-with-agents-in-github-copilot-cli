@@ -63,7 +63,7 @@ Next, you'll [install GitHub Copilot CLI][next-lesson] in your Codespace and aut
 - [Getting started with Codespaces][codespaces-quickstart]
 
 [caldova-template]: https://github.com/github-samples/caldova-careers
-[template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-template-repository
-[codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
+[template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+[codespaces-quickstart]: https://docs.github.com/codespaces/quickstart
 [next-lesson]: 1-install-copilot-cli.md
 [codespaces]: https://github.com/features/codespaces
